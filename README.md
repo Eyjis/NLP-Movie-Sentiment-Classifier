@@ -1,4 +1,4 @@
-%%writefile /content/drive/MyDrive/NLP_Movie_Sentiment/README.md
+# Movie Review Sentiment Classifier
 
 
 **Course:** CS1763 - Natural Language Processing  
