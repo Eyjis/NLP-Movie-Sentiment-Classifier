@@ -1,39 +1,32 @@
-# Movie Review Sentiment Classifier: Comparing Bag-of-Words and Bigram Features with Naive Bayes
+%%writefile /content/drive/MyDrive/NLP_Movie_Sentiment/README.md
 
-**Course:** CS1763 – Natural Language Processing  
-**Institution:** Faculty of Computing and Information, Al-Baha University  
+
+**Course:** CS1763 - Natural Language Processing  
+**University:** Al-Baha University, Faculty of Computing and Information  
 **Instructor:** Dr. Mohammed Alliheedi  
 
----
 
-## 1. Project Overview
-This project builds a supervised machine learning classifier to automatically label English movie reviews as **Positive** or **Negative**. Specifically, we conduct a controlled **one-change feature comparison** using **Multinomial Naive Bayes** to evaluate how adding **Bigram** features (`Unigram + Bigram`) impacts classification performance compared to standard **Bag-of-Words (`Unigram`)** features, alongside a **Majority-Class Baseline** and a lexicon-based **VADER** comparison.
+This project classifies English movie reviews as **Positive** or **Negative** using Multinomial Naive Bayes. The main goal is to compare standard Bag-of-Words (**Unigram**) features against **Bigram** (`Unigram + Bigram`) features under the exact same setup. We also include a Majority-Class baseline and compare our results with NLTK's rule-based **VADER** analyzer.
 
----
 
-## 2. Team Members and Task Distribution
-1. **Ibrahem Khaled AL-Ghamdi (`445022298`)** – *Data Preparation & Dataset Analysis*: Loading NLTK movie reviews, label/duplicate checks, text cleaning, and generating the fixed stratified 80/20 train/test split (`random_state=42`).
-2. **Abdullah Ibrahim Alzahrani (`445007956`)** – *Baseline & Unigram Naive Bayes*: Implementing the majority-class baseline, training the Unigram Multinomial Naive Bayes model, smoothing experiments, and extracting informative words.
-3. **Yazeed Alzahrani (`445006893`)** – *Bigram Feature Engineering & Model*: Implementing Unigram + Bigram feature extraction, training the Bigram Naive Bayes model, and conducting feature extraction experiments.
-4. **Mohammed Abdullah Al-Zahrani (`445022413`)** – *Evaluation Framework & Error Analysis*: Computing Accuracy, Precision, Recall, F1-score, Confusion Matrices, model comparison tables, and categorizing at least 20 misclassified reviews (e.g., negation, sarcasm).
-5. **Essa Fayez Al-Zahrani (`445008299`)** – *Prediction Interface & Project Documentation*: Developing the interactive prediction interface (`app.py`), evaluating VADER, organizing the GitHub repository, writing `README.md`, and structuring the final report and presentation slides.
+1. **Ibrahem Khaled AL-Ghamdi (`445022298`)** - Data loading, text cleaning, duplicate checks, and creating the fixed 80/20 train/test split (`random_state=42`).
+2. **Abdullah Ibrahim Alzahrani (`445007956`)** - Majority-class baseline, Unigram Naive Bayes model, smoothing tests, and top unigram words.
+3. **Yazeed Alzahrani (`445006893`)** - Bigram feature extraction (`ngram_range=(1, 2)`), Bigram Naive Bayes model, and top bigram phrases.
+4. **Mohammed Abdullah Al-Zahrani (`445022413`)** - Model evaluation (Accuracy, Precision, Recall, F1, Confusion Matrices) and error analysis on 20+ misclassified reviews.
+5. **Essa Fayez Al-Zahrani (`445008299`)** - CLI prediction tool (`app.py`), VADER comparison test, GitHub setup, documentation, and report/slides structure.
 
----
 
-## 3. Dataset Information & Terms of Use
-* **Dataset:** NLTK `movie_reviews` corpus (Cornell Movie Review Polarity Dataset v2.0, Pang & Lee, 2002).
-* **Size & Balance:** 2,000 English movie reviews (1,000 Positive, 1,000 Negative).
-* **Version & Download Date:** Dataset v2.0 (downloaded via `nltk.download('movie_reviews')` in November 2026).
-* **Terms of Use:** Used strictly for academic and educational research purposes with proper citation to Pang & Lee (2002).
-* **Train/Test Split & Reproducibility:** Fixed **80/20 stratified split** (1,600 training reviews / 400 testing reviews) generated using `random_state = 42`. Hyperparameter tuning is restricted to cross-validation on the training set only; the test set is evaluated once at the end.
+* **Source:** NLTK `movie_reviews` corpus (Cornell Movie Review Polarity Dataset v2.0, Pang & Lee, 2002).
+* **Size:** 2,000 reviews total (1,000 Positive, 1,000 Negative).
+* **Version & Date:** Dataset v2.0, downloaded via NLTK in November 2026.
+* **Usage:** Used strictly for academic coursework with citation to Pang & Lee (2002).
+* **Split:** Fixed 80/20 stratified split (1,600 train / 400 test) using `random_state = 42`. All tuning is done using cross-validation on the training set only.
 
----
 
-## 4. Repository Structure
 ```text
 NLP_Movie_Sentiment/
-├── data/                  # Cleaned dataset and fixed 80/20 train/test split files
-├── models/                # Saved trained models (unigram_model.pkl, bigram_model.pkl)
-├── notebooks/             # Jupyter notebooks for cleaning, modeling, evaluation, and error analysis
-├── app.py                 # Interactive CLI interface for predicting sentiment on new reviews
-└── README.md              # Project documentation and execution instructions
+├── data/          # Cleaned dataset and train/test split files
+├── models/        # Saved models (unigram_model.pkl, bigram_model.pkl)
+├── notebooks/     # Colab/Jupyter notebooks for cleaning, models, and evaluation
+├── app.py         # Command-line tool to test new movie reviews
+└── README.md      # Project info and run instructions
