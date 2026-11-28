@@ -38,3 +38,51 @@ The models were trained and evaluated on the **NLTK Movie Reviews Corpus** (2,00
 └── results/
     ├── confusion_matrices_comparison.png       # Side-by-side confusion matrices
     └── manual_error_types_distribution.png     # Distribution of manual error categories
+```
+
+---
+
+## Evaluation Results (400 Test Reviews)
+
+Adding bigram features improved overall accuracy by **4.0%** and reduced total misclassifications from **72** down to **56** (most notably cutting false negatives from 32 to 19):
+
+| Model | Accuracy | Precision | Recall | F1-Score | Confusion Matrix (TN / FP / FN / TP) | Total Errors |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Unigram (BoW)** | 82.00% | 82.05% | 82.00% | 0.8199 | 160 / 40 / 32 / 168 | 72 |
+| **Bigram** | **86.00%** | **86.29%** | **86.00%** | **0.8597** | **163 / 37 / 19 / 181** | **56** |
+
+![Confusion Matrices Comparison](results/confusion_matrices_comparison.png)
+
+---
+
+## Error Analysis Summary
+
+Across the 400 test reviews, **78 reviews** were misclassified by at least one model:
+* **50 reviews** were misclassified by both models.
+* **22 reviews** were misclassified by Unigram only and correctly resolved by Bigram (primarily short negation phrases such as *"not good"*).
+* **6 reviews** were misclassified by Bigram only.
+
+A manual inspection of **20 misclassified reviews** categorized the remaining model limitations as follows:
+
+| Error Category | Count | Percentage |
+| :--- | :---: | :---: |
+| Mixed sentiment / contrast | 12 | 60.0% |
+| Sarcasm / irony | 3 | 15.0% |
+| Negation / contextual polarity | 3 | 15.0% |
+| Sentiment reversal / temporal shift | 2 | 10.0% |
+
+![Manual Error Types Distribution](results/manual_error_types_distribution.png)
+
+---
+
+## How to Run Locally
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. **Launch the interactive prediction CLI:**
+   ```bash
+   python app.py
+   ```
+   Enter any movie review text when prompted to view the predicted sentiment from the trained classifier.
