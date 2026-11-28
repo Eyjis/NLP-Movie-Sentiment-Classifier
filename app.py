@@ -20,25 +20,22 @@ LABEL_MAP = {
 
 
 def load_models(paths):
-    """تحميل النماذج المدربة من مجلد models/ والتحقق من وجودها."""
     models = {}
     for name, path in paths.items():
         if not os.path.exists(path):
             raise FileNotFoundError(
-                f"ملف النموذج غير موجود: {path}\n"
-                "تأكد من وضع unigram_model.pkl و bigram_model.pkl داخل مجلد models/"
+                f"Model file not found: {path}\n"
+                "Ensure unigram_model.pkl and bigram_model.pkl are placed inside models/."
             )
         models[name] = joblib.load(path)
     return models
 
 
 def normalize_label(raw_label):
-    """تحويل مخرجات التصنيف إلى صيغة موحدة (Positive / Negative)."""
     return LABEL_MAP.get(str(raw_label).strip().lower(), str(raw_label))
 
 
 def predict_review(model, text):
-    """تنفيذ التنبؤ وحساب احتمالات الفئات واستخراج أبرز الميزات المؤثرة في النص."""
     vectorizer = model.steps[0][1]
     classifier = model.steps[1][1]
 
@@ -80,7 +77,7 @@ def predict_review(model, text):
 
 def display_result(title, result):
     print(f"\n--- {title} ---")
-    print(f"Sentiment  : {result['label']} ({result['confidence']:.2f}% confidence)")
+    print(f"Sentiment    : {result['label']} ({result['confidence']:.2f}% confidence)")
     print(f"Probabilities: Positive = {result['pos_prob']:.2f}% | Negative = {result['neg_prob']:.2f}%")
     print(f"Key Features : {', '.join(result['top_cues'])}")
 
@@ -99,8 +96,8 @@ def main():
 
     while True:
         print("\nChoose mode:")
-        print("  [1] Unigram Model (Member 2 - Abdullah)")
-        print("  [2] Bigram Model  (Member 3 - Yazeed)")
+        print("  [1] Unigram Model")
+        print("  [2] Bigram Model")
         print("  [3] Compare Both Models Side-by-Side")
         print("  [q] Quit")
 
@@ -112,35 +109,3 @@ def main():
         if choice not in {"1", "2", "3"}:
             print("Invalid choice. Please enter 1, 2, 3, or q.")
             continue
-
-        review = input("\nEnter movie review text: ").strip()
-        if not review:
-            print("Review text cannot be empty. Please try again.")
-            continue
-
-        if choice == "1":
-            res_u = predict_review(models["unigram"], review)
-            display_result("Unigram Model (CountVectorizer + MultinomialNB)", res_u)
-
-        elif choice == "2":
-            res_b = predict_review(models["bigram"], review)
-            display_result("Bigram Model (Unigram+Bigram + MultinomialNB)", res_b)
-
-        elif choice == "3":
-            res_u = predict_review(models["unigram"], review)
-            res_b = predict_review(models["bigram"], review)
-            display_result("Unigram Model (Member 2)", res_u)
-            display_result("Bigram Model  (Member 3)", res_b)
-
-            print("\n--- Comparison Summary ---")
-            if res_u["label"] == res_b["label"]:
-                print(f"Agreement: Both models predict [{res_b['label']}].")
-            else:
-                print(
-                    f"Disagreement: Unigram predicts [{res_u['label']}] "
-                    f"while Bigram predicts [{res_b['label']}]."
-                )
-
-
-if __name__ == "__main__":
-    main()
