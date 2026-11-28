@@ -1,0 +1,5 @@
+﻿Error Type,Count,Percentage
+Mixed sentiment / contrast,12,60.0
+Sarcasm / irony,3,15.0
+Negation / contextual polarity,3,15.0
+Sentiment reversal / temporal shift,2,10.0

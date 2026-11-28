@@ -1,0 +1,172 @@
+﻿review_id,true_label_unigram,predicted_unigram,true_label_bigram,predicted_bigram,true_label,text,unigram_error,bigram_error,both_wrong,possible_error_cues
+pos/cv901_11017.txt,positive,positive,positive,negative,positive,"the start of this movie reminded me of parts from the movie stargate . 
+people are looking around in an egyptian temple reading about some dangerous thing that is going to destroy earth in the future . 
+after a sort of confusing bit involving fake-looking cyborg things , the movie jumps into the future and the movie improves by leaps and bounds . 
+the basic idea behind the movie is that every once in a while ( make that every 1000 years or so ) an evil force comes to destroy earth . 
+the things needed to defend against this menace are the four elements of nature plus the fifth element . 
+the plot in this movie really isn't that important to the thing though . 
+this movie has very good special effects , for the most part . 
+the techno-ish music in the background fits the mood very well . 
+bruce willis is an illegal taxi-cab driver in a futuristic new york city . 
+one day a lady draped with a few bandages drops down into his trunk . 
+this movie is about what happens . 
+the plot twists are interesting and the movie never fails to present the viewer with a variety of different locations . 
+also there is a fair bit of action in the film , particularly towards the end . 
+some characters are just plain strange including a highly-energetic deejay in drag . 
+bruce willis does his normal job of blowing things away like he always does . 
+the movie is definitely watchable and rarely slows down . 
+it is one of those sci-fi films where you'll be saying "" cool "" followed by a "" what the hell ? ! ? ! "" . 
+i give the fifth element . 
+",False,True,False,"Negation, Contrast, Intensifiers"
+neg/cv156_11119.txt,negative,negative,negative,positive,negative,"senseless ( r ) marlon wayans is a very talented physical comedian , and it is that gift that brings senseless moments of life . 
+alas , moments are simply that , moments , which are not enough to lift this fantasy/comedy above its one-joke premise . 
+granted , that one joke is initially amusing . 
+when wayans's darryl witherspoon , an economics major at stratford university , hits some dire financial straits , he becomes a guinea pig for a experimental drug that heightens all five senses . 
+after some initial side effects and problems controlling his superhuman senses , darryl learns to enjoy the benefits of his abilities and uses them to land a position at a highly esteemed corporate firm . 
+at this point , the film sounds more like senseful than senseless , but through some turns of the plot , darryl finds himself only able to use four of his five senses at once , essentially leaving him--yes--senseless . 
+this sets up some showcase moments for wayans's gift for physical comedy , especially when darryl loses his sense of feeling and his body goes completely , hilariously limp . 
+but these gags , and the gag behind the entire movie , quickly grows stale . 
+once darryl is shown without the use of all of the senses , instead of exploring any new comic territory , director penelope spheeris and screenwriters greg erb and craig mazin take the easy way out and simply recycle each form of senselessness . 
+wayans approaches each go-round with gusto , but by this point he's simply treading water for the rest of the film's unfunny duration . 
+senseless would not be as problematic as it is if it didn't strive to be anything more than a comic trifle . 
+however , the raucous and often raunchy comedy is wrapped in a blanket of bogus sincerity . 
+darryl goes through the experiment in order to help his cash-strapped family , and this "" serious "" angle seems to come from an entirely different movie . 
+unlike wayans's last starring vehicle , the surprisingly effective ( and serious ) the 6th man , the "" emotional "" content of senseless is forced and unconvincing . 
+any attempt at anything more substantial than broad comedy fizzles--darryl's romance with janice ( tamara taylor ) , a young woman who yearns for a man who is true to himself , does not generate sparks of any kind . 
+once his wb television sitcom the wayans bros . comes to an end , the genuinely funny marlon wayans has a promising big-screen future ahead of him . 
+but if he continues to associate himself with projects as flat as senseless , his film career could go the way of his once-promising older brother , damon , who is now set to make his comeback--on television . 
+",False,True,False,"Negation, Contrast, Intensifiers"
+neg/cv170_29808.txt,negative,negative,negative,positive,negative,"mulholland drive did very well at the cannes film festival . 
+as you can see from the rating it did not do very well from me at the toronto international film festival . 
+it may not be clear to the viewer why i am so negative on this film for most of the running time . 
+in fact it is an interesting mystery story told on the backdrop of the hollywood film industry . 
+toward the end of the film i think everything that has been built falls apart . 
+the film was to be a pilot for a tv series but writer and director david lynch did not sell his tv pilot and i think he decided that he wanted to do something else with it . 
+something else is what he did . 
+the film opens with a woman ( played by laura harring ) about to be killed in a car when a car crash saves her life . 
+she crawls away from the accident with a concussion and finds herself a bungalow with an unlocked door to sleep . 
+meanwhile young vivacious betty ( naomi watts ) arrives in hollywood from canada . 
+she wants to build a career as an actress . 
+betty is a little surprised to find a woman sleeping in the borrowed bungalow . 
+she does not know who the woman is . 
+she is even more surprised when the woman awakes and does not herself know who she is . 
+they fix on a name rita for her , but are not sure if this right or not . 
+meanwhile local director adam kesher ( justin theroux ) has problems of his own . 
+he is trying to cast one actress for his new film and is getting pressure from the producers and from crime figures to cast someone else , cammie rhodes ( melissa george ) . 
+these two threads are joined by a third one in which there is a strange and comic murder that goes terribly wrong . 
+there is also a strange character called the cowboy ( monty montgomery ) adding to the confusion . 
+in what was probably intended for the television pilot the film opens with a great vibrancy showing dancing 60s style under the credits . 
+a lot of mulholland drive starts out fun . 
+lynch wants you to know he could make an enjoyable stylish film . 
+he just chooses not to . 
+as with any david lynch film there is strange material added for little reason . 
+there are no earthworms , but there are some decidedly strange david lynch touches . 
+the film is a little long for the subject matter . 
+toward the end it gets into some heavier violence and sex scenes , clearly not intended for the tv pilot . 
+unfortunately some of the most important comments to make about this film would be spoilers . 
+i will not mention them in the main body of the review but i give mulholland drive a 4 on the 0 to 10 scale and a low 0 on the -4 to +4 scale . 
+mulholland drive spoiler warning . 
+i have rated this film fairly low . 
+you should read this only after seeing the film or deciding that you will not see the film . 
+david lynch is in large part a dark satirist . 
+most of his work is done in familiar genres but in some way shows their underside . 
+in mulholland drive i think he is having a laugh at the expense of the crime film genre . 
+what he does with this film is ( are you sure you want to read this ? ) 
+playing off the audience expectations that there will be a simple explanation for what is going on . 
+the first 80% of the film he tells a simple multi-thread crime story with clues sprinkled throughout . 
+then suddenly at the end he turns the story on its ear with a large number of clues that appear that they should add up to something . 
+the audience expectation is that they will add up . 
+but he has given clues that are self-contradictory . 
+lynch wants the audience to argue about what they have seen afterward and come up with theories . 
+in fact , the pointers are noticeably contradictory and until i hear a better explanation , i think lynch is merely playing a joke . 
+there is a visual curiosity that was popular in the sixties . 
+mad magazine called it a poiuyt . 
+other sources called it a tri- pronged u-bar . 
+look at small portions of it and makes sense . 
+look at the whole figure and it does not . 
+this film is , in my estimation , the cinematic equivalent of a tri-pronged u-bar . 
+",False,True,False,"Negation, Contrast, Intensifiers"
+neg/cv804_11763.txt,negative,negative,negative,positive,negative,"for his directoral debut , gary oldman chose a highly personal family drama about a violent , alcoholic husband and father , and the various lives he affects . 
+but while the characters , places and events may have special meaning to the writer-director , the audience is left in the dark . 
+the center of this tale is the abusive raymond ( ray winstone ) , and the film focuses on him and the people who orbit around him . 
+he spends his days hanging out with his friends at pubs and girlie bars . 
+then , he returns home to his pregnant wife , valerie ( kathy burke ) and their five-year-old daughter . 
+raymond demonstrates his violent tendencies ( and his paranoid delusions ) early on when he accuses valerie's brother , billy ( charlie creed-miles ) , of stealing . 
+raymond then proceed to beat ( and bite ) him to a bloody wreck . 
+but these are the least of billy's problems . 
+billy is a heroin addict on the downturn , and it doesn't seem that he'll last much longer . 
+billy and valerie's mother , janet ( laila morse ) , is raymond's nemesis . 
+she disapproves of him ( and he of her ) , but is powerless to do anything about it . 
+she merely struggles on , hoping her children will survive their respective torments . 
+if this description seems bleak , i haven't told the half of it . 
+this is not a cheery movie , and most of the time it's downright depressing . 
+while at times it is interesting to watch to see just what makes raymond tick , and why no one ever simply calls the cops on him , in the end , it's not quite worth it . 
+there are too many scenes which randomly dot the picture with little or no purpose . 
+take for example the extended sequence where one of billy's scuzzy friends defends a stray puppy . 
+the film is filled with these "" character moments "" that never really achieve anything . 
+granted , there are a few genuinely powerful ( and sickening ) moments in the film , but their expression seems to be more of a catharsis for the creator than us . 
+the actors do a fine job , particularly in the central roles . 
+the good thing about an actor turned writer is that oldman knows how to write good scenes , and the actors in nil by mouth have some meat they can tear into . 
+the bad thing about an actor turned director is that there's no one to restrain oldman from making poor choices . 
+a good character drama should mean something to those involved in making the film and the audience . 
+oldman got it about half right . 
+",False,True,False,"Negation, Contrast, Intensifiers"
+neg/cv330_29675.txt,negative,negative,negative,positive,negative,"august and september are a wasteland when it comes to children's films , and october is a dumping ground for munchkin movies the studios don't want to see slaughtered against family-oriented thanksgiving films . 
+last year , the benevolent studio gods gave us digimon , and this year , they bestow max keeble's big move on delighted moviegoers across the country . 
+parents will be thrilled because they'll finally have something to drag little austin and kayla to see that doesn't smell nearly as much like ass as digimon did . 
+don't get me wrong - keeble , which is actually only a "" ment "" away from being a fetish film , isn't that entertaining . 
+in fact , you'd be better off waiting to blow your disposable income when the real kiddie pics ( monsters , inc . , harry potter ) come out next month . 
+but if dubya dubya iii tells you to go out and spend money to stimulate the economy , then you'd better do it ( because gassing up the minivan twice a week just isn't going to cut it ) . 
+we first see young max keeble ( alex d . linz , home alone 3 ) as a pint-sized superhero , delivering newspapers with the pinpoint accuracy of a david beckham cross , foiling the diabolical plans of the evil ice cream man ( jamie kennedy , jay and silent bob strike back ) and landing the neighborhood honey ( brooke anne smith ) , who , by the way , is the hottest chick in a disney film since emmanuelle chriqui played claire boner in snow day . 
+the scenario is , of course , a dream . 
+max is really a doofus and he wakes up on his first day of junior high school with a pessimistic attitude , no luck with the ladies and only two friends , both of whom can kindly be described as social outcasts ( and who were both in snow day ) - the perpetually robed robe ( josh peck ) and a clarinet-playing cutie named megan ( summer catch's zena grey ) , who harbors secret feelings for max . 
+things don't get any better for max when he arrives at school . 
+he has to contend with , among other things , a red-hot science teacher ( amber valletta , family man ) , a pair of polar-opposite bullies ( noel fisher and orlando brown ) , and an illiterate principal ( larry miller , the princess diaries ) who's secretly diverting the school's last dime into the football program . 
+when max's father ( grownup nerd robert carradine ) unexpectedly announces the family is moving to a new town at the end of the week , max decides this is the perfect time to exact revenge on everyone who pisses him off . 
+whoa - don't worry , parents . 
+he doesn't do it klebold-harris style . 
+it's all pretty tame stuff , but max ends up in hot water when dad nixes the move , leaving his son dangling in the wind like so many tampon strings . 
+director tim hill ( muppets from space ) adds a few nice touches , like max's voiceover character introductions for the film's main characters and a flashback scene that's pretty funny , but there isn't too much else happening here stylewise . . . unless 
+you count some farting , a little puking , and a couple of bizarre cameos from tony hawk and lil' romeo . 
+1 : 30 - pg for some bullying and crude humor 
+",False,True,False,"Negation, Contrast, Intensifiers"
+pos/cv103_11021.txt,positive,positive,positive,negative,positive,"i think that any competent member of the human race who's ever seen a movie--any movie--could probably predict just about every turn in the wedding singer . 
+even though i try very hard to not predict films as i'm watching them ( especially not romantic comedies ) , the plot of this particular film just advanced before me seconds , and sometimes minutes , before i actually saw it happen on screen . 
+but i don't care . 
+not even a little . 
+my reasons for this are simple : 1 ) adam sandler is great . 
+2 ) drew barrymore is great . 
+3 ) the movie is so funny . 
+there are parts that left me gasping for air because i was laughing so hard . 
+i haven't laughed this hard in a movie since austin powers . 
+sandler plays robby hart , a wedding singer who once had dreams of being in a rock band and writing his own music . 
+in the opening scenes , he seems like a happy-go-lucky wedding singer , at least partially enjoying his profession and doing a rather good job of talking down a really drunk individual ( steve buscemi ) who decides that his brother's wedding is a good place to tell the whole world that his life , up to that point , was utter pointlessness . 
+a week later , at his own wedding , he is left standing at the altar by his ex-fianc ? e , linda ( angela featherstone ) . 
+with his life in complete disarray , he meets julia ( barrymore ) , a waitress . 
+she is engaged to glenn ( matthew glave ) , and is to marry him in about three months . 
+julia and robby become good friends when she enlists him to help with the wedding plans . 
+soon ( and predictably ) it becomes pretty clear that glenn is a jerk , and that robby and julia really love each other . 
+oh sure , it's trite . 
+and if anyone making this film expected us to , like , feel suspense or something while watching the wedding singer , then they truly underestimated their audience . 
+what makes the story bearable , aside from the terrific costumes and 80s music , are the performances . 
+barrymore is simply adorable here ( i've never seen her look so close to the way she did in et ) . 
+not only is she pleasant to look at , but her acting job here really is a good one--and it doesn't hurt that the character is likable and adequately well-written . 
+and the jerk , played in full-force by graves , is just as despicable as any villain in any romantic comedy i've ever seen . 
+naturally , the true star here is sandler . 
+i think the guy is flat-out hilarious . 
+he can say something that just isn't funny , and his delivery makes me laugh . 
+his comedic performance here equals that of happy gilmore , but in this film he goes much further and proves to me that he can , indeed , hold his own as a leading man in a romantic comedy . 
+whereas his roles in his previous films kind of had sandler playing sandler , the wedding singer gives him a character that , for the first time , he actually has to fit into . 
+as far as i'm concerned he succeeded , and this film is testimony that he does , in fact , have some range in his talents . 
+and the movie is just so funny . 
+perhaps the best moment is when he sings a song for julia that he claims is a little uneven because he began writing it while in a good mood and finished it after his fianc ? e abandoned him . 
+this is the part that literally had me groping for a breath of air . 
+and while the film , like all romantic comedies , takes a hiatus from laughs towards the end because the plot has to finish up , there are more than enough truly hilarious moments in the first hour that make up for any slumps in progress during the second half . 
+my formal complaints for the wedding singer aren't very important . 
+the film is predicable , but who cares ? 
+the characters are extremely likable , the movie is ridiculously funny , and the experience is simply enjoyable . 
+in addition to this , i can't imagine anyone seeing the preview and not wanting to see the film . 
+in that order , i conclude that it is pointless for me to even have written this review . 
+i just want everyone to know that i laughed . 
+a lot . 
+",False,True,False,"Negation, Contrast, Intensifiers"
